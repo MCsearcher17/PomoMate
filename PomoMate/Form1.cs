@@ -45,11 +45,6 @@ namespace PomoMate
             this.Hide();
         }
 
-        private bool TryValidateInputs()
-        {
-
-        }
-
         private static bool IsStringBlank(string str)
         {
             return (string.IsNullOrWhiteSpace(str));
